@@ -1,0 +1,39 @@
+.header{
+    background-color: #0a0c1b;
+    height: 100vh;
+}
+.bgColor{
+    background-color: #1C1938;
+    /* width: 60%; */
+}
+.content h2 span{
+    color: rgb(169, 93, 218);
+}
+.overlay{
+    background-color:rgba(73, 39, 93, 0.7) ;
+}
+@media screen and (max-width: 600px) {
+    .reverse {
+        flex-direction: column-reverse;
+    }
+    .header{
+        height: auto;
+    }
+  }
+/* .back{
+width: 80%;
+height: auto;
+background-position: center center;
+background-color: #1c1938;
+justify-content: center;
+align-items: center;
+color: white;
+border: 1px solid #0a0c1b;
+}
+.caption span{
+    color: #aa57d9;
+}
+.caption h2{
+    display: inline-block;
+    margin: 2rem;
+} */
